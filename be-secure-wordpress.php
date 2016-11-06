@@ -22,6 +22,7 @@ add_action( 'admin_init', 'be_secure_settings_init' );
 
 
 
+// functions
 function be_secure_settings_init(  ) { 
 
 	register_setting( 'pluginPage', 'be_secure_settings' );
